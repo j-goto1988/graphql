@@ -7,12 +7,6 @@ use GraphQL\userinfo\db\connect_db;
 
 
 class user_db extends connect_db {
-    public int $id;
-    public string $name;
-    public int $age;
-    public string $comment;
-    public bool $active_flg;
-
     public function __construct() {
         parent::__construct();
     }
